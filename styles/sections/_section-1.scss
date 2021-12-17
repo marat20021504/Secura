@@ -1,6 +1,6 @@
 .section-1 {
     padding: 40px 375px 0 375px;
-    
+
     @media (max-width: 1440px) {
         padding: 40px 200px 0 200px;
     }
@@ -9,7 +9,7 @@
         height: 62px;
         display: flex;
         align-items: center;
-        justify-content: space-between;    
+        justify-content: space-between;
 
         nav {
             display: flex;
@@ -47,7 +47,103 @@
 
     main {
         height: calc(100vh - 62px - 40px);
-        background-color: red;
-    
+        display: flex;
+
+        .main-type {
+            margin-top: 50px;
+
+            h2 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 70px;
+                line-height: 134%;
+                letter-spacing: -2.50105px;
+                color: #444444;
+            }
+
+            p {
+                margin-top: 10px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 200%;
+                color: #666666;
+            }
+
+            button {
+                margin-top: 20px;
+                width: 197px;
+                height: 67.01px;
+                background: #FF7132;
+                border-radius: 40px;
+                border: none;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+
+            h4 {
+                margin-top: 20px;
+                margin-left: 10px;
+                width: 243px;
+                height: 67.01px;
+                border: 1px solid #FF7132;
+                border-radius: 40px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                color: #444444;
+                padding: 19px 40px;
+
+            }
+
+            .line {
+                width: 54px;
+                height: 6px;
+                left: 375px;
+                top: 565px;
+                background: #FF7132;
+                border-radius: 10px;
+            }
+        }
+
+        .main-img {
+            img {
+                margin: 100px 50px;
+                width: 400px;
+                height: 350px;
+            }
+
+            .position {
+                img {
+                    position: absolute;
+                    right: 0;
+                    top: 180px;
+                }
+            }
+        }
+
+        .buble {
+            img {
+                position: absolute;
+                top: 550px;
+                right: 600px;
+            }
+
+            :nth-child(2) {
+                position: absolute;
+                top: 300px;
+                right: 200px;
+            }
+            :nth-child(3) {
+                position: absolute;
+                top: 300px;
+                right: 650px;
+            }
+        }
     }
 }
