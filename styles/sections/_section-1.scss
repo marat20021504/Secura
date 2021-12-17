@@ -1,6 +1,6 @@
 .section-1 {
     padding: 40px 375px 0 375px;
-    
+
     @media (max-width: 1440px) {
         padding: 40px 150px 0 150px;
     }
@@ -9,7 +9,7 @@
         height: 62px;
         display: flex;
         align-items: center;
-        justify-content: space-between;    
+        justify-content: space-between;
 
         nav {
             display: flex;
@@ -126,6 +126,5 @@
             }
 
         }
-
-    }
+          }
 }
