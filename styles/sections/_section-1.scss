@@ -2,7 +2,7 @@
     padding: 40px 375px 0 375px;
     
     @media (max-width: 1440px) {
-        padding: 40px 200px 0 200px;
+        padding: 40px 150px 0 150px;
     }
 
     header {
@@ -47,7 +47,85 @@
 
     main {
         height: calc(100vh - 62px - 40px);
-        background-color: red;
-    
+        display: flex;
+
+        .first-contanier {
+           margin-top: 50px; 
+
+           h1 {
+               font-size: 70px;
+               font-weight: $fw-500;
+               color: #444444;
+           }
+
+           p {
+               font-size: 20px;
+               color: #666666;
+           }
+
+           .button-con {
+               display: flex;
+               align-items: center;
+               gap: 25px;
+                margin-top: 45px;
+
+               a {
+                   text-decoration: none;
+               }
+
+                .btn {
+                    font-family: $fw-400;
+                    padding: 15px 32px;
+                    border: 1px solid $orange;
+                    color: $orange;
+                    border-radius: 30px;
+                }
+
+           }
+
+        }
+
+        .second-contanier {
+            img {
+                width: 80%;
+                margin-top: 30px;
+            }
+
+            .battery-con {
+                width: 300px;
+                height: 100px;
+                background: rgba(255, 255, 255, 0.8);
+                box-shadow: 10px 20px 100px rgba(136, 136, 136, 0.2);
+                backdrop-filter: blur(50px);
+                border-radius: 15px;
+                position: absolute;
+                bottom: 100px;
+                right: 180px;
+                display: flex;
+                gap: 30px;
+                align-items: center;
+                padding-left: 16px;
+
+                .battery-icon {
+                    width: 75px;
+                    height: 75px;
+                    background: rgba(255, 255, 255, 0.6);
+                    box-shadow: 10px 20px 100px rgba(136, 136, 136, 0.2);
+                    backdrop-filter: blur(50px);
+                    border-radius: 10px;
+                    position: relative;
+
+                    img {
+                        position: absolute;
+                        top: -20px;
+                        left: 7px;
+                    }
+
+                }
+
+            }
+
+        }
+
     }
 }

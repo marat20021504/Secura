@@ -31,7 +31,7 @@
 
 @media (max-width: 1440px) {
   .section-1 {
-    padding: 40px 200px 0 200px;
+    padding: 40px 150px 0 150px;
   }
 }
 
@@ -86,7 +86,92 @@
 
 .section-1 main {
   height: calc(100vh - 62px - 40px);
-  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-1 main .first-contanier {
+  margin-top: 50px;
+}
+
+.section-1 main .first-contanier h1 {
+  font-size: 70px;
+  font-weight: "Poppins Medium";
+  color: #444444;
+}
+
+.section-1 main .first-contanier p {
+  font-size: 20px;
+  color: #666666;
+}
+
+.section-1 main .first-contanier .button-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+  margin-top: 45px;
+}
+
+.section-1 main .first-contanier .button-con a {
+  text-decoration: none;
+}
+
+.section-1 main .first-contanier .button-con .btn {
+  font-family: "Poppins Regular";
+  padding: 15px 32px;
+  border: 1px solid #FF7132;
+  color: #FF7132;
+  border-radius: 30px;
+}
+
+.section-1 main .second-contanier img {
+  width: 80%;
+  margin-top: 30px;
+}
+
+.section-1 main .second-contanier .battery-con {
+  width: 300px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 10px 20px 100px rgba(136, 136, 136, 0.2);
+          box-shadow: 10px 20px 100px rgba(136, 136, 136, 0.2);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 15px;
+  position: absolute;
+  bottom: 100px;
+  right: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 16px;
+}
+
+.section-1 main .second-contanier .battery-con .battery-icon {
+  width: 75px;
+  height: 75px;
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-box-shadow: 10px 20px 100px rgba(136, 136, 136, 0.2);
+          box-shadow: 10px 20px 100px rgba(136, 136, 136, 0.2);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border-radius: 10px;
+  position: relative;
+}
+
+.section-1 main .second-contanier .battery-con .battery-icon img {
+  position: absolute;
+  top: -20px;
+  left: 7px;
 }
 
 body {
