@@ -1,0 +1,53 @@
+.section-1 {
+    padding: 40px 375px 0 375px;
+    
+    @media (max-width: 1440px) {
+        padding: 40px 200px 0 200px;
+    }
+
+    header {
+        height: 62px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;    
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
+            a {
+                text-decoration: none;
+                font-family: $fw-500;
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: -0.500211px;
+                color: $mainBlack;
+            }
+
+            .active {
+                color: $orange;
+            }
+
+            .btn {
+                font-family: $fw-400;
+                padding: 15px 32px;
+                border: 1px solid $orange;
+                color: $orange;
+                border-radius: 30px;
+
+
+                &:hover {
+                    background-color: $orange;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+
+    main {
+        height: calc(100vh - 62px - 40px);
+        background-color: red;
+    
+    }
+}
