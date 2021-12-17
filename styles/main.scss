@@ -12,3 +12,13 @@ body {
     font-family: "Poppins Regular";
     font-style: normal;
 }
+
+.sec-1__back {
+    width: 540px;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-color: #F9F8F9;
+}
