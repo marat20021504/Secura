@@ -86,7 +86,100 @@
 
 .section-1 main {
   height: calc(100vh - 62px - 40px);
-  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-1 main .main-type {
+  margin-top: 50px;
+}
+
+.section-1 main .main-type h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 134%;
+  letter-spacing: -2.50105px;
+  color: #444444;
+}
+
+.section-1 main .main-type p {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 200%;
+  color: #666666;
+}
+
+.section-1 main .main-type button {
+  margin-top: 20px;
+  width: 197px;
+  height: 67.01px;
+  background: #FF7132;
+  border-radius: 40px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.section-1 main .main-type h4 {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 243px;
+  height: 67.01px;
+  border: 1px solid #FF7132;
+  border-radius: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #444444;
+  padding: 19px 40px;
+}
+
+.section-1 main .main-type .line {
+  width: 54px;
+  height: 6px;
+  left: 375px;
+  top: 565px;
+  background: #FF7132;
+  border-radius: 10px;
+}
+
+.section-1 main .main-img img {
+  margin: 100px 50px;
+  width: 400px;
+  height: 350px;
+}
+
+.section-1 main .main-img .position img {
+  position: absolute;
+  right: 0;
+  top: 180px;
+}
+
+.section-1 main .buble img {
+  position: absolute;
+  top: 550px;
+  right: 600px;
+}
+
+.section-1 main .buble :nth-child(2) {
+  position: absolute;
+  top: 300px;
+  right: 200px;
+}
+
+.section-1 main .buble :nth-child(3) {
+  position: absolute;
+  top: 300px;
+  right: 650px;
 }
 
 body {
